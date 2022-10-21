@@ -5,8 +5,6 @@ A ReactJS 18+ Content Sidepanel component...
 Unlike Offcanvas sidemenu, this panel does not cover the whole window height, but only its parent container height.
 This sidepanel is perfect for contextual menu/options.
 
----
-
 ## USAGE
 
 ```
@@ -27,6 +25,34 @@ This sidepanel is perfect for contextual menu/options.
       </div>
   }
 ```
+
+## SETTINGS
+
+#### side
+The side the sidepanel will be sticked to.
+Possible values : "left" or "right"
+Default value : "right"
+
+#### width
+The sidepanel width.
+Value : an integer between 200 and the parent container width...
+Default value : 240
+
+#### openedInit
+The initial state of sidepanel (when it is mounted).
+Value : true  => opened when mounted
+        false => closed when mounted
+Default value : false
+
+#### togglerMode
+The sidepanel toggler icons set.
+Values : "arrows", "context", "info"
+Default value : "arrows"
+
+#### shadow
+The sidepanel shadow.
+Values : true or false
+Default value : false
 
 ## MAIN TECHNOLOGIES IMPLEMENTED
 
