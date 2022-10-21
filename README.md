@@ -30,28 +30,28 @@ This sidepanel is perfect for contextual menu/options.
 
 #### side
 The side the sidepanel will be sticked to.<br />
-Possible values : "left" or "right"
+Possible values : "left" or "right"<br />
 Default value : "right"
 
 #### width
-The sidepanel width.
-Value : an integer between 200 and the parent container width...
+The sidepanel width.<br />
+Value : an integer between 200 and the parent container width...<br />
 Default value : 240
 
 #### openedInit
-The initial state of sidepanel (when it is mounted).
-Value : true  => opened when mounted
-        false => closed when mounted
+The initial state of sidepanel (when it is mounted).<br />
+Value : true  => opened when mounted<br />
+        false => closed when mounted<br />
 Default value : false
 
 #### togglerMode
-The sidepanel toggler icons set.
-Values : "arrows", "context", "info"
+The sidepanel toggler icons set.<br />
+Values : "arrows", "context", "info"<br />
 Default value : "arrows"
 
 #### shadow
-The sidepanel shadow.
-Values : true or false
+The sidepanel shadow.<br />
+Values : true or false<br />
 Default value : false
 
 ## MAIN TECHNOLOGIES IMPLEMENTED
