@@ -29,7 +29,7 @@ This sidepanel is perfect for contextual menu/options.
 ## SETTINGS
 
 #### side
-The side the sidepanel will be sticked to.
+The side the sidepanel will be sticked to.<br />
 Possible values : "left" or "right"
 Default value : "right"
 
