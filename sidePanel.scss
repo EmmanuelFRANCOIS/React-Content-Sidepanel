@@ -1,0 +1,48 @@
+// --------------------------------------------------------------------------
+// SIDEPANEL
+// --------------------------------------------------------------------------
+.sidePanel.left.shadowed  { box-shadow:  5px 5px 10px 0px rgba(0, 0, 0, 0.75); }
+.sidePanel.right.shadowed { box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.75); }
+.sidePanel {
+  position: fixed;
+  overflow: hidden;
+  height: 100% !important;
+  border-radius: 0;
+  background-color: rgba(0, 20, 30, 0.9);
+  padding: 10px 0 0;
+  z-index: 100;
+  transition: 0.2s ease-in;
+
+  // --------------------------------------------------------------------------
+  // SIDEPANEL TOGGLER
+  .toggler {
+    position: fixed;
+    outline: none;
+    bottom: calc(100% - 130px);
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 50%;
+    background-color: rgba(0, 20, 30, 0.9);
+    z-index: 101;
+    border: none;
+    transition: 0.2s ease-in;
+  }
+
+
+  // --------------------------------------------------------------------------
+  // SIDEPANEL CHILDREN
+  .children {
+    padding: 0px;
+    height: 100%;
+  }
+
+
+  // --------------------------------------------------------------------------
+  // SIDEPANEL SUB-PANEL
+  .panel {
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    padding: 10px 12px;
+  }
+
+}
